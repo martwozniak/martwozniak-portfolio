@@ -12,6 +12,7 @@ export default function Home() {
       </Head>
       <main>
         <Header />
+        <h1>Marcin Woźniak</h1>
       </main>
       <footer>
         <p>Marcin Wozniak</p>

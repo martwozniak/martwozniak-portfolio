@@ -6,6 +6,6 @@ context("Home Page", () => {
   });
 
   it("should find home page with title", () => {
-    cy.get("h1").contains("Marcin Woźniak");
+    cy.get("h1").contains("JavaScript");
   });
 });

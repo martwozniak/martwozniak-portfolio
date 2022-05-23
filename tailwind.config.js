@@ -6,6 +6,9 @@ module.exports = {
     "./src/components/**/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    minHeight: {
+      "70vh": "70vh",
+    },
     extend: {},
   },
   plugins: [],

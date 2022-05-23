@@ -25,6 +25,65 @@
 }
 
 
+.hireButton {
+    margin-top: 3rem;
+    padding: 2rem;
+    width: 270px;
+    background: #DA34F5;
+    border: 3px solid #DA34F5;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: white;
+    text-transform: uppercase;
+    transition: all 0.12s linear;
+    cursor: pointer;
+}
+
+.hireButton:hover { background: #9725a8; border: 3px solid #9725a8;}
+
+.contactButton {
+    padding: 2rem;
+    width: 270px;
+    border: 3px solid #DA34F5;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #DA34F5;
+    text-transform: uppercase;
+    transition: all 0.12s linear;
+    cursor: pointer;
+}
+
+.contactButton:hover { border: 3px solid #9725a8;color:#9725a8;}
+
+.linkedinButton {
+    margin-top: 3rem;
+    padding: 2rem;
+    width: 270px;
+    border: 3px solid #DA34F5;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #DA34F5;
+    text-transform: uppercase;
+    transition: all 0.12s linear;
+    cursor: pointer;
+}
+
+.linkedinButton:hover { border: 3px solid #9725a8;color:#9725a8;}
 
 .main {
   min-height: 100vh;

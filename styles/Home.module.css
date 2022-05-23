@@ -2,6 +2,30 @@
   padding: 0 2rem;
 }
 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.homepageBackGround {
+  background: linear-gradient(273.09deg, rgba(186, 38, 238, 0.19) 4.34%, rgba(255, 255, 255, 0) 22.07%, rgba(102, 47, 219, 0.07) 38.73%);
+  min-height: 100vh;
+  transition: all 0.3s linear;
+  background-size: 400% 400%;
+	animation: gradient 4s ease infinite;
+  animation-iteration-count: infinite;
+}
+
+
+
 .main {
   min-height: 100vh;
   padding: 4rem 0;
